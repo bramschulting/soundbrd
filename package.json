@@ -1,0 +1,22 @@
+{
+  "name": "soundbrd",
+  "version": "1.0.0",
+  "description": "CLI soundbrd",
+  "main": "index.js",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "lodash": "^4.14.1",
+    "lowdb": "^0.13.1",
+    "minimist": "^1.2.0",
+    "play-sound": "0.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bram Schulting",
+  "license": "ISC",
+  "bin": {
+    "soundbrd": "bin/soundbrd.js"
+  }
+}
